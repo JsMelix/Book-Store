@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="src/styles/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/91ef4f1cdf.js" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="https://www.google.com/books/jsapi.js"></script>
+  <title>Libros</title>
+</head>
+
+<body>
+  <header>
+      <h2>Libross</h2>
+    </div>
+    <a href="#" onclick="Favorites(); return false;">
+      <h4 >Mis libros favoritos</h4>
+    </a>
+  </header>
+  <div class="top">
+    <form class="search">
+      <select class="search__drop" name="genre" id="type">
+        <option value="all">Libros</option>
+        <option value="ebooks">Categoria</option>
+      </select>
+      <input class="search__txt" type="text" placeholder="Busca tus libros el que quieras por genero y mas" id="txt">
+      <input class="btn" type="button" value="Search" id="btn">
+    </form>
+
+  </div>
+  <main id="main">
+    <h2 id=mainTitle></h2>
+    <div class="results" id="results">
+    </div>
+    <div class="pagination" id="pagination">
+      <form>
+        <input type="button" value="<" onclick="prev()"></input>
+        <input type="text" id="txtPage" disabled>
+        <input type="button" value=">" onclick="next()"></input>
+      </form>
+      <p id="total"></p>
+    </div>
+  </main>
+  <footer>
+  </footer>
+  <script type="text/javascript" src="api.js"></script>
+</body>
+
+</html>
