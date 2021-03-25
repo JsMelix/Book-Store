@@ -13,7 +13,7 @@ Donde se consume la Api de google, se guarda en un objeto los libros y luego el 
 
 ## Tecnologias 
 Proyecto fue creado con: 
-└─ local Storage
-└─ Google Books API 
-└─ -Vanilla JS 
+* └─ local Storage
+* └─ Google Books API 
+* └─ -Vanilla JS 
 
