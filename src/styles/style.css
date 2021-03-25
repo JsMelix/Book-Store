@@ -6,17 +6,19 @@ body {
   background-color: #f3f7f7;
   position: relative;
   min-height: 100vh;
+  background-image: linear-gradient(to right top, #051937, #00436c, #007291, #00a39a, #00d188)
 }
 header {
   display: flex;
   align-items: center;
-  background-color: #39424e;
+  background-color: #00a39a;
   color: white;
   padding: 5px;
   justify-content: space-around;
 }
 header h2 {
   margin-left: 10px;
+  color: #00436c
 }
 
 footer {
@@ -63,20 +65,21 @@ header a {
 .btn {
   border-style: none;
   color: white;
-  background-color: #4966b0;
+  background-color: #00a39a;
   cursor: pointer;
 }
 
 .search__drop {
   color: white;
-  background-color: #7b7b7b;
+  background-color: #00a39a;
   cursor: pointer;
 }
 
 .search__txt {
   border-style: none;
-  background-color: #e7e7e7;
+  background-color: #00a39a;
   width: 40%;
+  color: white;
 }
 
 .logo {
@@ -114,6 +117,7 @@ main {
 
 main h2 {
   color: #4966b0;
+  text-align: center;
 }
 
 .pagination {
@@ -148,10 +152,10 @@ main h2 {
   color: gray;
 }
 .fav--inactive:hover{ 
-  color: red;
+  color: green;
 }
 .fav--active{
-  color: red;
+  color: green;
 }
 .fav--active:hover{
   color: gray;
