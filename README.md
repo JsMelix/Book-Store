@@ -7,10 +7,7 @@
 ## Informacion general 
 -Proyecto, Biblioteca Virtual usando Vanilla JS local storage para la data, Google books API Html & Css sin frameworks.
 Donde se consume la Api de google, se guarda en un objeto los libros y luego el user puede añadir su libro 
-└─ react-router-dom@5.2.0
-└─ react-redux@7.2.3
-└─ redux@4.0.5
-└─ axios@4.0.5
+
 
 -Curso utilizados para resolver el reto: Curso Javascript, Curso Definito Html y Css.
 
