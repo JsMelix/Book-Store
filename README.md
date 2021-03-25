@@ -5,7 +5,8 @@
 * [Tecnologias](#Tecnologias)
 
 ## Informacion general 
--Proyecto, Biblioteca Virtual usando Vanilla JS local storage para la data, Google books API Html & Css sin frameworks.
+## Proyecto fue creado con 
+Biblioteca Virtual usando Vanilla JS local storage para la data, Google books API Html & Css sin frameworks.
 Donde se consume la Api de google, se guarda en un objeto los libros y luego el user puede añadir su libro 
 
 
